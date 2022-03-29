@@ -1,0 +1,7 @@
+spring:
+  main:
+    # springboot 2.6 版本后默认不开启循环依赖解决，可以通过此注解打开
+    allow-circular-references: true
+
+server:
+  port: 8009
